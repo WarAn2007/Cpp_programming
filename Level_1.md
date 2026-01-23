@@ -1,18 +1,18 @@
 # --Main Topics--
 
-### [**1. Syntax & Statements & Comments**](#Syntax)
-
-### **2. Input and Output of Data**
-
-### **3. Variables and Data types**
-
-### **4. Operators**
-
+### [**1. Syntax**](#syntax)
+### [**2. Statements**](#statements)
+### [**3. Comments**](#comments)
+### [**4. Data Types**](#datatype)
+### [**5. Output**](#output)
+### [**6. Input**](#input)
+### [**7. Variables**](#variables)
+### [**8. Operators**](#operators)
 ### **5. If/Else & Loops**
-
 ### **6. Functions and Scopes**
 ##
-<a name = "Syntax"><\a>
+
+<a name = "syntax"><\a>
 # Syntax
 ## Let's break up simple code given below
 ```cpp
@@ -57,7 +57,7 @@ std::cout << "Hi";
 return 0;
 }
 ```
-
+<a name = "statements"><\a>
 # Statements
 As was mentioned above code line must end with semi-column(;), they are called ***Statements***.
 Here are few statements for example:
@@ -66,6 +66,7 @@ cout << "Happy Day";
 cout << "Please Die😢";
 return 0;
 ```
+<a name = "comments"><\a>
 # Comments
 Comments are used in C++ in two ways: one-line-comment and text-comment
 ```cpp
@@ -77,6 +78,47 @@ Covers text from backslash-asterikses (/*)
 
 ```
 ## 
+<a name = "datatype"><\a>
+## Data Types:
+```txt
+Data Type-    -Size-      -Description-
+
+--Basic--
+boolean       1 byte       Stores true or false values
+char          1 byte       Stores a single character/letter/number, or ASCII values
+int        2 or 4 bytes    Stores whole numbers, without decimals
+float         4 bytes      Stores fractional numbers, containing one or more decimals. Sufficient for storing 6-7 decimal digits
+double        8 bytes      Stores fractional numbers, containing one or more decimals. Sufficient for storing 15 decimal digits
+void                       The void data type represents the absence of value. We cannot create a variable of void type. It is used for pointer and functions
+
+--Derived--
+array                      List of variables that size and data type we declare 
+pointer        1 byte      Pointing to register where data stores. Ex: if int x = 1, there should be smth showing location of x.
+reference      1 byte      Is also some sort of pointing to location of variable
+function                   result of part of code
+
+--User Defined--
+class                      * Spoilers *
+structure                  * Spoilers *
+union                      * Spoilers *
+using                      * Spoilers *
+typedef                    * Spoilers *
+
+auto          XXXXXX       System automatically chooses correct data type for data value
+```
+
+```cpp
+int myNum = 5;               // Integer (whole number)
+float myFloatNum = 5.99;     // Floating point number
+double myDoubleNum = 9.98;   // Floating point number
+char myLetter = 'D';         // Character
+bool myBoolean = true;       // Boolean
+string myText = "Hello";     // String
+auto Any_Thing = 53;         // After compilation declared as integer
+
+cout << sizeof(myNum); #Show size of variable
+```
+<a name = "output"><\a>
 # Output
 As you undersand output is showing results of code to us, and to see it we use ***cout <<*** see-out
 ```cpp
@@ -125,11 +167,12 @@ cout << round(2.6);  #round up to nearest numbe
 cout << log(2);      #Logarithm with base of 2
 ```
 ## 
+<a name = "input"><\a>
 # Input
 Input is entering data to code, and in C++ we use ***cin>>*** see-in. After entering data in cin program automaticaly creates new line, so no nedd for '\n' or endl
 ```cpp
 cout << "Enter 1st: ";
-cin >> fisrt;
+cin >> first;
 cout << "Enter 2nd;
 cin >> second;
 /*
@@ -138,6 +181,7 @@ Enter 2nd: Alina
 */
 ```
 But before that we have to declare space for variables.
+<a name = "variables"><\a>
 ## Variables
 Variables are containers for storing data values.
 
@@ -164,8 +208,6 @@ int x, y, z;
 x=y=z=50;
 
 
-If you declare one data type space but enter another, error will occur:
-int Num = "twenty-one" # ERROR
 The general rules for naming variables are:
 
 • Names can contain letters, digits and underscores
@@ -188,46 +230,8 @@ cin >> abc ; # Error occurs
 const int Num;
 Num = 2; # Error occurs
 ```
-## Data Types:
-```txt
-Data Type-    -Size-      -Description-
 
---Basic--
-boolean       1 byte       Stores true or false values
-char          1 byte       Stores a single character/letter/number, or ASCII values
-int        2 or 4 bytes    Stores whole numbers, without decimals
-float         4 bytes      Stores fractional numbers, containing one or more decimals. Sufficient for storing 6-7 decimal digits
-double        8 bytes      Stores fractional numbers, containing one or more decimals. Sufficient for storing 15 decimal digits
-void                       The void data type represents the absence of value. We cannot create a variable of void type. It is used for pointer and functions
-
---Derived--
-array                      List of variables that size and data type we declare 
-pointer        1 byte      Pointing to register where data stores. Ex: if int x = 1, there should be smth showing location of x.
-reference      1 byte      Is also some sort of pointing to location of variable
-function                   result of part of code
-
---User Defined--
-class                      * Spoilers *
-structure                  * Spoilers *
-union                      * Spoilers *
-using                      * Spoilers *
-typedef                    * Spoilers *
-
-auto          XXXXXX       System automatically chooses correct data type for data value
-```
-
-```cpp
-int myNum = 5;               // Integer (whole number)
-float myFloatNum = 5.99;     // Floating point number
-double myDoubleNum = 9.98;   // Floating point number
-char myLetter = 'D';         // Character
-bool myBoolean = true;       // Boolean
-string myText = "Hello";     // String
-auto Any_Thing = 53;         // After compilation declared as integer
-
-cout << sizeof(myNum); #Show size of variable
-```
-
+<a name = "operators"><\a>
 # Operators
 Operators are used to perform operations on variables and values
 ```txt
@@ -266,12 +270,13 @@ int y = 3;
 cout << (x + y) << "\n"; // 13
 cout << (x - y) << "\n"; // 7
 cout << (x * y) << "\n"; // 30
-cout << (x / y) << "\n"; // 3 (integer division)
+cout << (x / y) << "\n"; // 3 (integer division removes reminders)
 cout << (x % y) << "\n"; // 1
 
 int z = 5;
 ++z;
 cout << z << "\n"; // 6
 --z;
+```
 cout << z << "\n"; // 5
 ```
