@@ -8,8 +8,6 @@
 ### [**6. Input**](#input)
 ### [**7. Variables**](#variables)
 ### [**8. Operators**](#operators)
-### **5. If/Else & Loops**
-### **6. Functions and Scopes**
 ##
 
 <a name = "syntax"><\a>
