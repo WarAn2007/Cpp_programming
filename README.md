@@ -8,14 +8,16 @@
 <img src="roadmaptocpp.jpg" width="720">
 
 ---------------------------------------------
-## [Level 1:](Level_1.md)
-### Syntax, Input/Output, Operators, Variables, Data Types, Math, If/Else, Loops, Functions , Scopes
-## [Level 2:](Level_2.md)
-### Templates, String, Array, Enum, Memory Address, Pointers, Memory Management
-## [Level 3:](Level_3.md)
-### OOP, Class/Objects, Constructors, Structures, Polymorphism, Inheritance, Encapsulation, File Handlers, Errors
-## [Level 4:](Level_4.md)
+## [Basics:](1.Basics.md)
+### Syntax, Input/Output, Operators, Variables, Data Types, Math, String
+## [Functions:](2.Func.md)
+### Functions, Parameters,Overloading, If/Else, Loops, Scopes, Recursion, lambda, Templates
+## [Data_Manipulation:](3.Data_Manip.md)
+### Array,String library, Enum, Memory Address, Pointers, Memory Management, Dynamic Memory
+## [Classes:](4.Classes.md)
+### OOP, Class/Objects, Constructors, Structures, Polymorphism, Inheritance, Encapsulation, Errors
+## [DSA:](5.DSA.md)
 ### DSA(Data Structure and Algorithms + STL(which stands for The Standard Template Library) -> vector, list, stack, queue, deque, set, map, iterators
-## [Level 5:](Level_5.md)
-### Namespaces, References
+## [Namespaces References:](6.files_manip.md)
+### Namespaces, References, File Handlers
 ---------------------------------------------
