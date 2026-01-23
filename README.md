@@ -5,17 +5,17 @@
 ### roadmap(eng version)(https://roadmap.sh/cpp)
 
 ## Btw now I am a student and also here I will upload tasks from my Uni and secret tricks that professors teach me☺☺
-
+<img src="roadmaptocpp.jng" alt="Архитектура системы" width="720">
 
 ---------------------------------------------
 ## [Level 1:](Level_1.md)
 ### Syntax, Input/Output, Operators, Variables, Data Types, Math, If/Else, Loops, Functions , Scopes
-## Level 2:
+## (Level 2:](Level_2.md)
 ### Templates, String, Array, Enum, Memory Address, Pointers, Memory Management
-## Level 3:
+## (Level 3:](Level_3.md)
 ### OOP, Class/Objects, Constructors, Structures, Polymorphism, Inheritance, Encapsulation, File Handlers, Errors
-## Level 4:
-### DSA(Data Structure and Algorithms + STL(which stands for The Standard Template Library) -> vector, list, stack, queue, deque, set, map, uterators
-## Level 5: 
+## (Level 4:](Level_4.md)
+### DSA(Data Structure and Algorithms + STL(which stands for The Standard Template Library) -> vector, list, stack, queue, deque, set, map, iterators
+## (Level 5:](Level_5.md)
 ### Namespaces, References
 ---------------------------------------------
