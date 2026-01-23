@@ -5,7 +5,7 @@
 ### roadmap(eng version)(https://roadmap.sh/cpp)
 
 ## Btw now I am a student and also here I will upload tasks from my Uni and secret tricks that professors teach me☺☺
-<img src="roadmaptocpp.jng" alt="Архитектура системы" width="720">
+<img src="roadmaptocpp.jng" width="720">
 
 ---------------------------------------------
 ## [Level 1:](Level_1.md)
