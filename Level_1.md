@@ -1,8 +1,8 @@
 # --Main Topics--
-### **1. Syntax & Statements & Comments**
+
+### [**1. Syntax & Statements & Comments**](#Syntax)
 
 ### **2. Input and Output of Data**
-- [Начало](#Начало)
 
 ### **3. Variables and Data types**
 
@@ -12,6 +12,7 @@
 
 ### **6. Functions and Scopes**
 ##
+<a name = "Syntax"><\a>
 # Syntax
 ## Let's break up simple code given below
 ```cpp
@@ -76,7 +77,6 @@ Covers text from backslash-asterikses (/*)
 
 ```
 ## 
-<a name="Начало"></a>
 # Output
 As you undersand output is showing results of code to us, and to see it we use ***cout <<*** see-out
 ```cpp
