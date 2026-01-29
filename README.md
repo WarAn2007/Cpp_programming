@@ -9,11 +9,11 @@
 
 ---------------------------------------------
 ## [Basics:](1.Basics.md)
-### Syntax, Input/Output, Operators, Variables, Data Types, Math, String
+### Syntax, Input/Output, Operators, Variables, Data Types, Math, String, Array
 ## [Functions:](2.Funcs.md)
 ### Functions, Parameters,Overloading, If/Else, Loops, Scopes, Recursion, lambda, Templates
 ## [Data_Manipulation:](3.Data_Manip.md)
-### Array,String library, Enum, Memory Address, Pointers, Memory Management, Dynamic Memory
+### Array Manip, Enum, Memory Address, Pointers, Memory Management, Dynamic Memory
 ## [Classes:](4.Classes.md)
 ### OOP, Class/Objects, Constructors, Structures, Polymorphism, Inheritance, Encapsulation, Errors
 ## [DSA:](5.DSA.md)
