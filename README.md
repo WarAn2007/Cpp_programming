@@ -9,9 +9,9 @@
 
 ---------------------------------------------
 ## [Basics:](1.Basics.md)
-### Syntax, Input/Output, Operators, Variables, Data Types, Math, String, Array
+### Syntax, Input/Output, Operators, Variables, Data Types, Math, String
 ## [Functions:](2.Funcs.md)
-### Functions, Parameters,Overloading, If/Else, Loops, Scopes, Recursion, lambda, Templates
+### Functions, Parameters&Overloading, If/Else, Loops, Scopes, Recursion, lambda, Templates
 ## [Data_Manipulation:](3.Data_Manip.md)
 ### Array Manip, Enum, Memory Address, Pointers, Memory Management, Dynamic Memory
 ## [Classes:](4.Classes.md)
