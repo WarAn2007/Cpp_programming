@@ -11,10 +11,10 @@
 ## [Basics:](1.Basics.md)
 ### Syntax, Input/Output, Operators, Variables, Data Types, Math, String
 ## [Functions:](2.Funcs.md)
-### Functions, Parameters&Overloading, If/Else, Loops, Scopes, Recursion, lambda, Templates
+### Functions, Parameters&Overloading, If/Else,Switch, Loops, Scopes, Recursion, lambda
 ## [Data_Manipulation:](3.Data_Manip.md)
-### Array Manip, Enum, Memory Address, Pointers, Memory Management, Dynamic Memory
-## [Classes:](4.Classes.md)
+### Array, Enum, Memory Address, Pointers, Memory Management, Templates, Dynamic Memory
+## [OOP:](4.Classes.md)
 ### OOP, Class/Objects, Constructors, Structures, Polymorphism, Inheritance, Encapsulation, Errors
 ## [DSA:](5.DSA.md)
 ### DSA(Data Structure and Algorithms + STL(which stands for The Standard Template Library) -> vector, list, stack, queue, deque, set, map, iterators
