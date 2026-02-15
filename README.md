@@ -15,9 +15,9 @@
 ## [Data_Manipulation:](3.Data_Manip.md)
 ### Array, Enum, Memory Address, Pointers, Memory Management, Templates
 ## [OOP:](4.Classes.md)
-### OOP, Class/Objects, Constructors, Polymorphism, Inheritance, Encapsulation, Errors
+### Classes, OOP, Constructors
 ## [DSA:](5.DSA.md)
-### DSA(Data Structure and Algorithms + STL(which stands for The Standard Template Library) -> vector, list, stack, queue, deque, set, map, iterators
+### DSA(Data Structure and Algorithms + STL(The Standard Template Library)
 ## [Namespaces References:](6.files_manip.md)
-### Namespaces, References, File Handlers
+### Namespaces, References, File Handlers, Errors
 ---------------------------------------------
