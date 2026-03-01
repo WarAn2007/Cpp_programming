@@ -14,8 +14,10 @@
 ###  If/Else,Switch, Functions, Parameters&Overloading, Loops, Scopes, Recursion, lambda
 ## [Data_Manipulation:](3.Data_Manip.md)
 ### Array, Enum, Memory Address, Pointers, Memory Management, Templates
-## [OOP:](4.Classes.md)
-### Classes, OOP, Constructors
+## [OOP:](4.Classes_PART_1.md)
+### Classes, OOP, Constructors, Destructors
+## [OOP_2:](4.Classes_PART_2.md)
+### Constant objects, compositions, Friend Func(Classes), Dynamic Memory, this pointer, Static Func(objects)
 ## [DSA:](5.DSA.md)
 ### DSA(Data Structure and Algorithms + STL(The Standard Template Library)
 ## [Namespaces References:](6.files_manip.md)
